@@ -2,18 +2,20 @@
 /*                                  FUNCION 1                                 */
 /* -------------------------------------------------------------------------- */
 function iniciarJuego(){
-    let nombre;
     // Saludo y solicito el nombre
-    alert('Bienvendio al Juego de Piedra Papel o Tijera');
-    do {
-        nombre = prompt('Ingrese su nombre');
-    } while( nombre == null || nombre.length < 3 )
     
-    nombre = nombre.toUpperCase();
-    alert(' Hola ' + nombre + '!'  );
+    alert('Bienvendio al Juego de Piedra Papel o Tijera');
+    let nombre;
+    do {
+        nombre = prompt('Ingrese su nombre')
+    } while( nombre == null || nombre.trim() == '' || nombre.length < 3 );
+    nombre = nombre.toUpperCase().trim()
+    alert(' Hola ' + nombre +  '!'  );
 
     return nombre;
 }
+
+iniciarJuego();
 
 // Creamos una variable Global con el nombre del jugador
 //const nombreJugador = iniciarJuego();
