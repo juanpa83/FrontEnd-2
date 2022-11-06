@@ -7,7 +7,7 @@ function pedirJugada(){
     let eleccion;
 
     do {
-        eleccion =  parseInt( prompt('Ingrese: \n 1.Piedra \n 2.Papel \n 3.Tijera') );
+        eleccion = parseInt( prompt('Ingrese: \n 1.Piedra \n 2.Papel \n 3.Tijera') );
 
     } while(  isNaN(eleccion) || eleccion < 1 || eleccion > 3  );
 
@@ -67,3 +67,4 @@ function compararJugadas(){
 // 2- La función debe mostrar por consola el resultado de la partida.
 // 3- A su vez debe mostrar al usuario una alerta con el resutado de la partida.
 // 4- Finalmente, si el resultado fue una derrota debe mostrarle al usuario un mensaje de aliento para desearle suerte en la próxima oportunidad.
+
