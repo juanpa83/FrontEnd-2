@@ -58,7 +58,7 @@ function compararJugadas(){
     return resultado;
 }
 
-//const resultadoPartida = compararJugadas();
+// const resultadoPartida = compararJugadas();
 
 /* -------------------------------------------------------------------------- */
 /*                          CONSIGNA MESA DE TRABAJO                          */
@@ -68,3 +68,11 @@ function compararJugadas(){
 // 3- A su vez debe mostrar al usuario una alerta con el resutado de la partida.
 // 4- Finalmente, si el resultado fue una derrota debe mostrarle al usuario un mensaje de aliento para desearle suerte en la próxima oportunidad.
 
+// function mostrarResultado (resultado){
+//     console.log(resultado)
+//     if(resultado == '¡Ganastes!' || resultado == 'Empataron'){
+//         alert(resultado);
+//     } else alert("lo siento perdiste... pero vuelve a intentarlo seguro lo logras!!!")
+// }
+
+//mostrarResultado(compararJugadas());

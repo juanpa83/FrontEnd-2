@@ -17,7 +17,7 @@ function iniciarJuego(){
 
 // Creamos una variable Global con el nombre del jugador
 
-const nombreJugador = iniciarJuego();
+// const nombreJugador = iniciarJuego();
 
 /* -------------------------------------------------------------------------- */
 /*                       CONSIGNA DE LA MESA DE TRABAJO                       */
